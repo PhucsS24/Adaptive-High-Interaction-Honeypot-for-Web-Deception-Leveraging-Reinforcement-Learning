@@ -21,10 +21,10 @@ Tạo ra một Honeypot thích ứng để đánh lừa kẻ tấn công trên n
 
 ### 4. Mô hình và cách hoạt động
 ![Model Diagram](./assets/images/model_DACN.png)
-
-1. Attacker thực hiện một lệnh request để khai thác lỗ hổng trên web.
-2. Lệnh request này được xử lý để đưa về dạng tổng quát và sau đó gửi đến RL-Agent.
-3. RL-Agent kiểm tra xem dạng tổng quát đó có nằm trong database không:
+1. Input là các chuỗi truy vấn GET/POST của attacker khi thực hiện tấn công web.
+2. Attacker thực hiện một lệnh request để khai thác lỗ hổng trên web.
+3. Lệnh request này được xử lý để đưa về dạng tổng quát và sau đó gửi đến RL-Agent.
+4. RL-Agent kiểm tra xem dạng tổng quát đó có nằm trong database không:
    - Nếu có, RL-Agent chọn các phản hồi hợp lý (sau khi đã được train) khớp với request để phản hồi lại cho attacker.
    - Nếu không, RL-Agent chọn các phản hồi không nằm trong database (các trường hợp đặc biệt) để phản hồi lại cho attacker.
 
