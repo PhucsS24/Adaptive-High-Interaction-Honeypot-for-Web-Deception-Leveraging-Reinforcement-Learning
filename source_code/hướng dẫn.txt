@@ -1,0 +1,8 @@
+1. tải folder source_code về folder Download ở ổ C
+2. Cài đặc anaconda: https://www.anaconda.com/download
+3. Chạy Anaconda Navigator
+4. Chọn jupyter notebook --> launch
+5. vào Download --> source_code --> Test --> install_lib.ipynb -->run (cài đặc thư viện cần thiết)
+6. sau khi cài thư viện có thể chạy cái file .ipynb còn lại
+
+(các model đã được train được lưu trong source_code\Test\Training\Saved Models)

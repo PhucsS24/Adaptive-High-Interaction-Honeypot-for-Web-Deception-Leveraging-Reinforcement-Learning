@@ -1,0 +1,4 @@
+model train 2 tr timestep: 		 PPO_18, DQN_145
+model train 1.5 tr timestep:   PP0_19, DQN_147
+model train 1 tr timestep:     PPO_20, DQN_148
+model train 500 k timestep:    PPO_21, DQN_149
