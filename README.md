@@ -29,5 +29,6 @@ Tạo ra một Honeypot thích ứng để đánh lừa kẻ tấn công trên n
    - Nếu không, RL-Agent chọn các phản hồi không nằm trong database (các trường hợp đặc biệt) để phản hồi lại cho attacker.
 
 ## II. Demo
-![Demo Video](https://youtu.be/DQXfA-t6beg)
+[Watch the Demo Video](https://youtu.be/DQXfA-t6beg)
+
 
